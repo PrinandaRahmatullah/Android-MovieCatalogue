@@ -1,0 +1,2 @@
+include ':app', ':consumer', ':mine'
+rootProject.name='MyFinalSubmission'
