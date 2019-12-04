@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mine"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:7:5-110
+14        android:name="com.example.myfinalsubmission.READ_DATABASE"
+14-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:7:17-75
+15        android:protectionLevel="normal" />
+15-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:7:76-108
+16    <permission android:name="com.example.myfinalsubmission.WRITE_DATABASE" />
+16-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:8:5-79
+16-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:8:17-76
+17
+18    <application
+18-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:10:5-26:19
+19        android:allowBackup="true"
+19-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:11:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\Prinanda Rahmatullah\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:12:9-43
+23        android:label="@string/app_name"
+23-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:13:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:14:9-54
+25        android:supportsRtl="true"
+25-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:15:9-35
+26        android:theme="@style/AppTheme" >
+26-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:16:9-40
+27        <activity android:name="com.example.mine.Detail" />
+27-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:17:9-53
+27-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:17:19-41
+28        <activity android:name="com.example.mine.AboutMe" />
+28-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:18:9-45
+28-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:18:19-42
+29        <activity android:name="com.example.mine.MainActivity2" >
+29-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:19:9-25:20
+29-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:19:19-48
+30            <intent-filter>
+30-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:20:13-24:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:21:17-69
+31-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:21:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:23:17-77
+33-->C:\Java\MyFinalSubmission\mine\src\main\AndroidManifest.xml:23:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <provider
+37-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\Prinanda Rahmatullah\.gradle\caches\transforms-2\files-2.1\789443f34303da1edef03874eab5645d\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:25:9-29:43
+38            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+38-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\Prinanda Rahmatullah\.gradle\caches\transforms-2\files-2.1\789443f34303da1edef03874eab5645d\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:26:13-79
+39            android:authorities="com.example.mine.lifecycle-process"
+39-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\Prinanda Rahmatullah\.gradle\caches\transforms-2\files-2.1\789443f34303da1edef03874eab5645d\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:27:13-69
+40            android:exported="false"
+40-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\Prinanda Rahmatullah\.gradle\caches\transforms-2\files-2.1\789443f34303da1edef03874eab5645d\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:28:13-37
+41            android:multiprocess="true" />
+41-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] C:\Users\Prinanda Rahmatullah\.gradle\caches\transforms-2\files-2.1\789443f34303da1edef03874eab5645d\lifecycle-process-2.2.0-rc02\AndroidManifest.xml:29:13-40
+42    </application>
+43
+44</manifest>
